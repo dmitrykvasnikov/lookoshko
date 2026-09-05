@@ -1,0 +1,25 @@
+# Local configuration and credentials
+.env
+.env.*
+!.env.example
+local.properties
+*.jks
+*.keystore
+
+# Android / Gradle
+.gradle/
+.kotlin/
+**/build/
+.externalNativeBuild/
+.cxx/
+*.apk
+*.aab
+
+# IDE and operating system
+.idea/
+*.iml
+.DS_Store
+Thumbs.db
+
+# Temporary output
+*.log
